@@ -9,7 +9,7 @@ a{color: blueviolet; text-decoration: none;}
 .jcb{justify-content: space-between;}
 .rel{position: relative;}
 .abs{position: absolute;}
-.container{width: 1200px; margin: 0 auto;}
+.container{width: 1000px;}
 #hd{background-color: #ccc;
     align-items: center;   }
 #gnb>li>a{
@@ -27,30 +27,37 @@ a{color: blueviolet; text-decoration: none;}
     display: flex;
     flex-direction: column;
     justify-content: center;
-    z-index: 1;
     transition: 0.5s;
 }
 #gnb ul a{
   color: white;
 }
 /* A형 */
-/* #gnb>li:hover ul{
-    height: 7rem;
-} */
-
-/* B형 + C형*/
-#gnb:hover ul{
+#gnb>li:hover ul{
     height: 7rem;
 }
 
-#gnb:after{
+/* B형 + C형*/
+/* #gnb:hover ul{
+    height: 7rem;
+} */
+/* #gnb:after{
    content: "";
    position: absolute;
    background-color: black;
    left: 0; top: 100%; right: 0;
    height: 0;
    transition: 0.5s;
-}
-#gnb:hover:after{
+} */
+/* #gnb:hover:after{
     height: 7rem;
+} */
+.content,.ani>div{
+    width: 800px;
 }
+.ani>div{
+    height: 350px;
+}
+.ani{width: 1000000px;}
+.b2{background-color: darkseagreen;}
+#banner{overflow: hidden;}
