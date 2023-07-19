@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{list-style: none;}
+a{color: blueviolet; text-decoration: none;}
+.d-flex{display: flex;}
+.h100{height: 100;}
+.jcb{justify-content: space-between;}
+.rel{position: relative;}
+.abs{position: absolute;}
+.container{width: 1200px; margin: 0 auto;}
+#hd{background-color: #ccc;
+    align-items: center;   }
+#gnb>li>a{
+    font-size: 20px;
+    padding: 0 15px;
+}
+#gnb ul{
+    background-color: black;
+    width: 100px;
+    top: 100%;
+    left: 0;
+    text-indent: 1rem;
+}
+#gnb ul a{
+  color: white;
+}
