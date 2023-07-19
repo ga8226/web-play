@@ -57,7 +57,18 @@ a{color: blueviolet; text-decoration: none;}
 }
 .ani>div{
     height: 350px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.on{
+    opacity: 1 !important;
 }
 .ani{width: 1000000px;}
-.b2{background-color: darkseagreen;}
-#banner{overflow: hidden;}
+.b1{background-color: darkseagreen;}
+.b2{background-color: coral;}
+.b3{background-color: deeppink;}
+#banner{overflow: hidden;
+    height: 350px;}
